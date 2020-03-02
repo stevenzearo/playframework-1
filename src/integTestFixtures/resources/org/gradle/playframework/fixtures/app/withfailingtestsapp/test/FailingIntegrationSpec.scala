@@ -18,7 +18,7 @@ import org.junit._
 import org.junit.Assert._
 
 class FailingIntegrationSpec  {
-  @Test 
+  @Test
   def failingTest() {
     fail()
   }

@@ -18,11 +18,11 @@ import org.junit._
 import org.junit.Assert._
 
 class FailingApplicationSpec  {
-  @Test 
+  @Test
   def failingTest() {
     fail()
   }
-  @Test 
+  @Test
   def passingTest() {
   }
 }
