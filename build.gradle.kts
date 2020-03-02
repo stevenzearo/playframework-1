@@ -31,8 +31,8 @@ dependencies {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_12
+    targetCompatibility = JavaVersion.VERSION_12
 }
 
 gradlePlugin {
@@ -97,15 +97,5 @@ buildScan {
     if (!System.getenv("CI").isNullOrEmpty()) {
         publishAlways()
         tag("CI")
-    }
-}
-
-pluginBundle {
-    website = "https://gradle.github.io/playframework/"
-    vcsUrl = "https://github.com/gradle/playframework"
-    tags = listOf("playframework", "web", "java", "scala")
-    mavenCoordinates {
-        groupId = project.group.toString()
-        artifactId = base.archivesBaseName
     }
 }
