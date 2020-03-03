@@ -181,7 +181,7 @@ class InDepthUserGuideSamplesIntegrationTest extends Specification {
     }
 
     private BuildResult build(String... arguments) {
-        runner.withArguments(arguments + '-s' as List<String>).build()
+        runner.withArguments(arguments as List<String>).build()
     }
 
     private GradleRunner setupRunner(String gradleVersion) {
