@@ -18,8 +18,8 @@ import static org.gradle.playframework.extensions.PlayPlatform.DEFAULT_PLAY_VERS
  * play {
  *     platform {
  *         playVersion = '2.6.14'
- *         scalaVersion = '2.11'
- *         javaVersion = JavaVersion.VERSION_1_9
+ *         scalaVersion = '2.12'
+ *         javaVersion = JavaVersion.VERSION_12
  *     }
  *     injectedRoutesGenerator = true
  * }

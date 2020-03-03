@@ -31,7 +31,7 @@ class PlayApplicationDependenciesIntegrationTest extends AbstractIntegrationTest
                 platform {
                     playVersion = '2.6.14'
                     scalaVersion = '2.12'
-                    javaVersion = JavaVersion.VERSION_1_8
+                    javaVersion = JavaVersion.VERSION_12
                 }
             }
         """

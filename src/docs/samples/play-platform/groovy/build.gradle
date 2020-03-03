@@ -20,7 +20,7 @@ play {
     platform {
         playVersion = '2.6.14'
         scalaVersion = '2.11'
-        javaVersion = JavaVersion.VERSION_1_9
+        javaVersion = JavaVersion.VERSION_1_8
     }
 }
 // end::play-extension[]
