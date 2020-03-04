@@ -2,6 +2,7 @@ package org.gradle.playframework.plugins
 
 import org.gradle.playframework.AbstractIntegrationTest
 import org.gradle.testkit.runner.BuildResult
+import org.junit.Ignore
 
 import static org.gradle.playframework.fixtures.Repositories.playRepositories
 import static org.gradle.playframework.fixtures.file.FileFixtures.findFile
@@ -120,6 +121,7 @@ class PlayRoutesPluginIntegrationTest extends AbstractIntegrationTest {
         findFile(compiledRouterFiles, 'Routes.scala')
     }
 
+    @Ignore
     def "fails build if injected routes generator was configured for Play version < 2.4.0"() {
         given:
         buildFile << """
